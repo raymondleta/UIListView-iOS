@@ -9,33 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let countries = ["Kenya", "Uganda", "Tanzania", "Rwanda", "Burundi", "Ethiopia", "Djibouti", "Eritrea"]
-    
+
     @IBOutlet weak var tableView: UITableView!
+    
+    var img = ["1","2","3","4","5"]
+    var name = ["Splash", "Shop", "Deliver", "Pay", "Main page"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
     }
 
 }
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource{
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return countries.count
+        return img.count
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 196
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MyTableViewCell
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "countriesCell", for: indexPath)
-        
-        cell.textLabel?.text = countries[indexPath.row]
+        cell.myImage.image = UIImage(named: img[indexPath.row] + ".png")
+        cell.myLabel.text = name[indexPath.row]
         
         return cell
     }
-    
     
 }
 

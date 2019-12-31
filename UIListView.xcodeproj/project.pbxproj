@@ -13,6 +13,12 @@
 		EBB0B96123BBDE3B004B1060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB0B95F23BBDE3A004B1060 /* Main.storyboard */; };
 		EBB0B96323BBDE3D004B1060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB0B96223BBDE3D004B1060 /* Assets.xcassets */; };
 		EBB0B96623BBDE3D004B1060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB0B96423BBDE3D004B1060 /* LaunchScreen.storyboard */; };
+		EBB0B97023BBFA4D004B1060 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB0B96F23BBFA4D004B1060 /* MyTableViewCell.swift */; };
+		EBB0B97623BC0835004B1060 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB0B97123BC0835004B1060 /* 2.png */; };
+		EBB0B97723BC0835004B1060 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB0B97223BC0835004B1060 /* 5.png */; };
+		EBB0B97823BC0835004B1060 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB0B97323BC0835004B1060 /* 4.png */; };
+		EBB0B97923BC0835004B1060 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB0B97423BC0835004B1060 /* 3.png */; };
+		EBB0B97A23BC0835004B1060 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB0B97523BC0835004B1060 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		EBB0B96223BBDE3D004B1060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBB0B96523BBDE3D004B1060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBB0B96723BBDE3D004B1060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB0B96F23BBFA4D004B1060 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		EBB0B97123BC0835004B1060 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../../GroundZero/resources/2.png; sourceTree = "<group>"; };
+		EBB0B97223BC0835004B1060 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../../../GroundZero/resources/5.png; sourceTree = "<group>"; };
+		EBB0B97323BC0835004B1060 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../../../GroundZero/resources/4.png; sourceTree = "<group>"; };
+		EBB0B97423BC0835004B1060 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../../../GroundZero/resources/3.png; sourceTree = "<group>"; };
+		EBB0B97523BC0835004B1060 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../../GroundZero/resources/1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +73,14 @@
 				EBB0B95D23BBDE3A004B1060 /* ViewController.swift */,
 				EBB0B95F23BBDE3A004B1060 /* Main.storyboard */,
 				EBB0B96223BBDE3D004B1060 /* Assets.xcassets */,
+				EBB0B97523BC0835004B1060 /* 1.png */,
+				EBB0B97123BC0835004B1060 /* 2.png */,
+				EBB0B97423BC0835004B1060 /* 3.png */,
+				EBB0B97323BC0835004B1060 /* 4.png */,
+				EBB0B97223BC0835004B1060 /* 5.png */,
 				EBB0B96423BBDE3D004B1060 /* LaunchScreen.storyboard */,
 				EBB0B96723BBDE3D004B1060 /* Info.plist */,
+				EBB0B96F23BBFA4D004B1060 /* MyTableViewCell.swift */,
 			);
 			path = UIListView;
 			sourceTree = "<group>";
@@ -125,8 +143,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB0B97823BC0835004B1060 /* 4.png in Resources */,
+				EBB0B97A23BC0835004B1060 /* 1.png in Resources */,
 				EBB0B96623BBDE3D004B1060 /* LaunchScreen.storyboard in Resources */,
+				EBB0B97723BC0835004B1060 /* 5.png in Resources */,
 				EBB0B96323BBDE3D004B1060 /* Assets.xcassets in Resources */,
+				EBB0B97623BC0835004B1060 /* 2.png in Resources */,
+				EBB0B97923BC0835004B1060 /* 3.png in Resources */,
 				EBB0B96123BBDE3B004B1060 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB0B95E23BBDE3A004B1060 /* ViewController.swift in Sources */,
+				EBB0B97023BBFA4D004B1060 /* MyTableViewCell.swift in Sources */,
 				EBB0B95A23BBDE3A004B1060 /* AppDelegate.swift in Sources */,
 				EBB0B95C23BBDE3A004B1060 /* SceneDelegate.swift in Sources */,
 			);
